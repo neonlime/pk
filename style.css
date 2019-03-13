@@ -1,0 +1,436 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+}
+a:hover {
+  text-decoration: none;
+}
+.logo-container {
+  width: 60px;
+  height: 60px;
+  margin: 40px auto 25px;
+
+}
+.logo-container img {
+  width: 100%;
+  height: auto;
+}
+.gradient {
+  position: fixed;
+  height: 16vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(226, 226, 226, 1), rgba(226, 226, 226, 0.5), rgba(226, 226, 226, 0.3), rgba(226, 226, 226, 0.1), rgba(255, 255, 255, 1));
+  z-index: -50;
+}
+header {
+  margin-top: 90px;
+}
+header h1 {
+  margin: auto;
+  padding-bottom: 15px;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 55px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  color: #a31d1d;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+h3 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  color: #a31d1d;
+  font-size: 1.4em;
+}
+
+.tagline {
+  font-family: "Courier New";
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #626264;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+}
+.navbar-top {
+  background-color: transparent;
+  height: 50px;
+  margin: 0;
+  padding-top: 10px;
+}
+.navbar-nav .fa:hover {
+  color: #CC0D0D;
+}
+.navbar {
+  font-family: 'Inconsolata', monospace;
+  border: 0px;
+  border-radius: 0px;
+  background-color: #f4f4f4;
+  padding-bottom: 60px;
+}
+.navbar form {
+  margin-left: 15px;
+}
+.navbar form input {
+  border-radius: 7px;
+  height: 30px;
+  width: 173px;
+}
+.navbar form button {
+  border-radius: 7px;
+  height: 30px;
+}
+#navbar-container {
+  position: relative;
+}
+.navbar-main {
+  margin: 0 auto;
+  padding-top: 5px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+  position: relative;
+  top: -55px;
+  width:50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+
+}
+.navbar-nav-main {
+  text-align: center;
+  width: 100%;
+
+}
+.navbar-nav-main>li {
+  display: inline-block;
+  float: none;
+  padding: 5px 20px;
+}
+
+.navbar-nav>li>a {
+  padding: 12px 8px;
+}
+.prodaja-jezik {
+  display: inline-block;
+  font-size: 1.1em;
+  float: right;
+}
+.prodaja-jezik .btn {
+  padding: 10px 25px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.prodaja-jezik .btn:hover {
+  background-color: #CC0D0D;
+  color: white;
+}
+.jezik {
+  padding: 7px;
+  color: #CC0D0D;
+  display: inline-block;
+}
+.jezik-abbr {
+  display: none;
+  color: #CC0D0D;
+}
+.jezik:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+article {
+  width: 30%;
+  margin: auto;
+  font-size: 1em;
+  text-align: justify;
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+.o-nama {
+  width: 60%;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 40px;
+}
+.o-nama p:last-child {
+  color: #CC0D0D;
+  font-size: 16px;
+  margin-top: 25px;
+  font-family: 'Inconsolata', monospace;
+}
+.quote-icons {
+  float: right;
+}
+main, aside {
+  margin-top: 70px;
+}
+aside {
+  width: 80%;
+  display: none;
+}
+
+/*najnovija knjiga i prethodna izdanja*/
+.new-book-container {
+  /* width: 100%; */
+  height: 500px;
+  display: flex;
+}
+.new-book-container > div:first-of-type {
+  /*display: flex;
+  justify-content: flex-start;
+  flex-direction: column;*/
+  align-items: center;
+  height: 350px;
+}
+.newest-data {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.1em;
+    background-image: linear-gradient(rgba(226, 226, 226, 0.2), rgba(226, 226, 226, 0.3), rgba(244, 244, 244, 0.6), rgba(244, 244, 244, 1));
+    padding: 5px 15px;
+    float: left;
+    transition: 0.4s;
+}
+.newest-data:hover {
+  background-image: none;
+  -webkit-box-shadow:inset 0px 0px 0px 3px #c6c6c6;
+    -moz-box-shadow:inset 0px 0px 0px 3px #c6c6c6;
+    box-shadow:inset 0px 0px 0px 3px #c6c6c6;
+}
+
+.new-book-container img {
+  /* width: 100%; */
+  height: 350px;
+  float: left;
+  margin-right: 40px;
+  box-shadow: 2px 4px 3px #777;
+}
+.new-book-quote {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 3em;
+  color: #cecece;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 40px;
+  margin-top: 110px;
+}
+
+.book-name {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  margin-bottom: 0;
+  color:  #5e5e5e;
+}
+.autor-name {
+  color: #777;
+  font-weight: lighter;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+/*aside - odlomci*/
+.odlomci {
+  display: flex;
+  justify-content: space-between;
+}
+.odlomak {
+  width: 350px;
+  cursor: pointer;
+}
+.odlomak-img {
+  height: 180px;
+  width: 350px;
+  opacity: 0.8;
+  transition: 0.4s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+.odlomak:hover .odlomak-img {
+  opacity: 1;
+}
+.odlomak-txt {
+  line-height: 1.1em;
+  max-height: 4.4em;
+  overflow: hidden;
+  text-align: justify;
+}
+aside a {
+  cursor: pointer;
+  color: #474646;
+
+}
+aside a:hover {
+  color: #474646;
+  text-decoration: none;
+}
+aside h3 {
+  text-align: right;
+  color: #333;
+}
+
+/*Hila radionica*/
+.radionica {
+  font-family: 'Roboto', sans-serif;
+
+}
+.radionica a {
+  color: #474646;
+  font-size: 1.2em;
+}
+.hila-link {
+  background-color: #efefef;
+  padding: 7px 12px;
+  /*width: 30%;*/
+}
+/* slajder top */
+
+.carousel-wrapper {
+  /*display: flex;
+  justify-content: center;
+
+  align-items: center;*/
+}
+.carousel-main {
+  position: relative;
+  width: 100%;
+
+
+}
+.carousel-main ul {
+position: relative;
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+height: 250px;
+
+}
+.carousel-main li {
+  float: left;
+}
+.carousel-prev {
+  left: -45px;
+}
+.carousel-next {
+  right: -45px;
+}
+.carousel-prev, .carousel-next {
+position: absolute;
+top: 50%;
+margin-top: -20px;
+width: 30px;
+height: 30px;
+text-align: center;
+text-decoration: none;
+background-color: rgb(224, 224, 224);
+color: #fff;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+font-size: 1.3em;
+font-weight: bold;
+}
+.carousel-prev:hover, .carousel-next:hover {
+  color: #a31d1d;
+}
+.img-container-main {
+  display: inline;
+  margin: 0 5px;
+
+}
+.img-container-main img {
+  height: 200px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: 0.2s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+
+
+}
+.img-container-main img:hover {
+  filter: none;
+  transform: scale(1.1);
+
+}
+/*Footer*/
+footer {
+  width: 100%;
+  height: 380px;
+  position: relative;
+  clear: both;
+}
+.friends {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 300px;
+
+}
+.friend-icon {
+
+}
+.friends img {
+  height: 50px;
+}
+
+@media screen and (max-width: 1450px) {
+  .navbar-fixed-top {
+    position: relative;
+  }
+  .navbar-main {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 767px){
+  .navbar-nav li>a {
+    display: inline-block;
+  }
+  .navbar-nav li {
+    display: inline-block;
+  }
+  .navbar-nav {
+    margin: 0;
+  }
+  .navbar-main {
+    margin-top: 0;
+    position: relative;
+    top: -100px;
+  }
+  .navbar-default .navbar-form{
+    border-color: transparent;
+    margin: 0;
+    position: relative;
+    top: -48px;
+    left: 130px;
+  }
+  .prodaja-jezik {
+    position: relative;
+    top: -95px;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .jezik-abbr {
+    display: inline-block;
+  }
+  .jezik {
+    display: none;
+  }
+  }

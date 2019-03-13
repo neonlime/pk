@@ -1,0 +1,159 @@
+/*o NAMA*/
+#zanimanje {
+  margin-bottom: 42px;
+}
+.row {
+  margin-top: 105px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.col-md-3-aboutus {
+  height: 350px;
+  padding: 1px;
+}
+.col-md-3-authors {
+  height: 280px;
+  padding: 1px;
+}
+
+.thumbnail {
+  border: 0;
+  background-color: transparent;
+}
+
+.thumbnail:hover .autor-name{
+  color:  #CC0D0D;
+  text-decoration: none;
+}
+.autor-img {
+  height: 195px;
+}
+h5 {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 1.22em;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  color: #777;
+}
+.dropdown-tab {
+  float: left;
+  position: relative;
+  margin-right: 5px;
+}
+.dropdown-tab:hover .dropdown-content {
+  display: block;
+}
+.dropdown-tab:hover .btn-spisak {
+  background-color: #a31d1d;
+  color: white;
+}
+
+/* .dropdown-content:hover .dropdown-menu {
+  display: block;
+} */
+.a-i:hover .menu-a-i {
+  display: block;
+}
+.j-p:hover .menu-j-p {
+  display: block;
+}
+.r-z:hover .menu-r-z {
+  display: block;
+}
+.flexed {
+  display: flex;
+}
+/* #dropdown-tab-edition:hover .content2 {
+  display: flex;
+} */
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+.dropdown-menu {
+  display: none;
+  background-color: #faf9f9;
+  padding: 20px 40px 20px 25px;
+  width: 250px;
+}
+.dropdown-item {
+  color: #333;
+}
+.dropdown-item:hover {
+  color: #CC0D0D;
+}
+.content-position {
+  left: -137px;
+}
+.btn-spisak {
+  display: inline-block;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  padding: 8px 15px;
+  font-size: 1.2em;
+}
+.btn-spisak-ime {
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  background-color: #faf9f9;
+  padding: 8px 28px;
+  font-size: 1.2em;
+}
+.btn-spisak-ime:hover {
+  background-color: #dbdbdb;
+}
+.btn-group {
+  margin-top: 5px;
+}
+.dropdown-content .btn {
+  z-index: 10;
+}
+
+.btn-group:hover .a-i {
+  display: block;
+  z-index: 10;
+}
+
+/*Kontakt*/
+.mapa {
+  -webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+#info {
+  text-indent: 20px;
+  margin-top: 50px;
+}
+.btn-kontakt, h4 {
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #f5f5f5;
+  padding: 10px 15px;
+  color: #a31d1d;
+  font-size: 1.2em;
+}
+.prodaja-info {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+  font-size: 1.2em;
+}
+.prodaja-info span {
+  color:  #a31d1d;
+}
+.prodaja-info a {
+  color: #CC0D0D;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.prodaja-info p {
+  text-indent: 25px;
+}
+.kontakt-naslovi {
+  color: #474646;
+  margin-top: 30px;
+  width: 25%;
+}

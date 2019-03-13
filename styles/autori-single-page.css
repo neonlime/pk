@@ -1,0 +1,36 @@
+.bio-container {
+  margin: 10px auto 0;
+  height: 400px;
+  width: 80%;
+}
+h3 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+}
+.col-md-4 {
+  float: left;
+}
+aside {
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+
+}
+.bio-paragraph {
+  padding-left: 30px;
+  padding-top: 12px;
+  font-size: 1.15em;
+  text
+}
+.published {
+  float: left;
+  width: 200px;
+}
+#bio-name {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #a31d1d;
+  padding: 0 12px;
+}
