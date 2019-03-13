@@ -42,16 +42,24 @@
 .books {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
+flex-flow: row wrap;
   align-content: flex-start;
   margin-bottom: 120px;
 }
 .thumbnail-katalog {
   width: 200px;
   height: 420px;
-  margin-right: 27px;
+  margin-right: 28px;
+  /*margin-right: 35px;*/
   margin-bottom: 90px;
 }
+/*.thumbnail-katalog:nth-child(5n) {
+  margin-left: 28px;
+  margin-right: 0;
+}*/
+
+
 .thumbnail-katalog:hover .book-img {
   filter: opacity(.8);
   -webkit-filter: opacity(.8);
@@ -68,4 +76,14 @@
 .book-price {
   margin-top: 15px;
   color:  #5e5e5e;
+}
+@media screen and (max-width: 1185px) {
+  /*.thumbnail-katalog:nth-child(4n) {
+    margin-right: 0;
+  }*/
+  .thumbnail-katalog {
+  margin-right: 17px;
+  margin-left: 18px;
+
+}
 }
