@@ -8,7 +8,8 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="/styles/katalog-single.css">
+    <link rel="stylesheet" href="../styles/katalog-single.css">
+
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -18,7 +19,6 @@
 
   </head>
   <body>
-
     <div class="gradient">
     </div>
     <div id="navbar-container">
@@ -26,7 +26,7 @@
         <div id="navbar" class="container-fluid">
           <div class="nav-plus-search">
             <ul class="nav navbar-nav" style="font-size: 18px">
-              <li><a href="#"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+              <li><a href="https://www.facebook.com/partizanskaknjiga/" target="_blank"><i class="fa fa-facebook-square fa-lg"></i></a></li>
               <li><a href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
               <li><a href="#"><i class="fa fa-youtube fa-lg"></i></a></li>
             </ul>
@@ -37,18 +37,19 @@
             </form>
           </div>
           <div class="prodaja-jezik">
-            <a class="jezik" href="#">engleski</a> | <a class="jezik" href="#">srpski</a>
+            <a class="jezik" href="#">engleski</a> <p class="jezik">|</p> <a class="jezik" href="#">srpski</a>
+            <a class="jezik-abbr" href="#">en</a> <p class="jezik-abbr">|</p> <a class="jezik-abbr" href="#">rs</a>
             <button class="btn" type="button" name="button">Prodaja</button>
           </div>
         </div>
         <nav class="navbar navbar-default navbar-main">
           <div class="container">
             <ul class="nav navbar-nav navbar-nav-main">
-              <li><a href="#">početna</a></li>
-              <li><a href="#">o nama</a></li>
-              <li><a href="pages/autori.html">autori / autorke</a></li>
-              <li><a href="#">katalog</a></li>
-              <li><a href="#">kontakt</a></li>
+              <li><a href="/">početna</a></li>
+              <li><a href="/o-nama">o nama</a></li>
+              <li><a href="/autori">autori / autorke</a></li>
+              <li><a href="/katalog">katalog</a></li>
+              <li><a href="/kontakt">kontakt</a></li>
             </ul>
           </div>
         </nav>
@@ -59,7 +60,7 @@
     <div class="container">
       <header>
         <div class="logo-container">
-          <img src="../images/logo.png" alt="">
+          <img src="/images/logo.png" alt="">
         </div>
         <h1>PARTIZANSKA KNJIGA</h1>
 
@@ -68,10 +69,32 @@
         </div>
       </header>
 
-      <hr>
-
+        <hr>
     </div>
 
+    <div class="container">
+
+
+      <div class="single-book-container">
+        <div class="thumbnail col-md-4">
+          <img src="../images/books-slide/5.jpg" alt="">
+        </div>
+        <div class="book-data col-md-8">
+          <div class="background-bookname"></div>
+            <h2 class="book-name-singlepage">Malograđanski ep / Matr'jalisti</h2>
+            <h3>Predrag Čudić</h3>
+
+          <p id="first-paragraph">žanr: poezija</p>
+          <p>broj strana: 319</p>
+          <p>povez: meki</p>
+          <p>pogovor: Mirjana Miočinović</p>
+          <p>dimenzije: 20x13.5 cm</p>
+          <p>godina izdanja: 2018</p>
+          <p>ISBN: 978-86-6477-031-6</p>
+        </div>
+      </div>
+
+    </div>
 
 
       <footer class="">
