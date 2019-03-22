@@ -27,7 +27,7 @@ a:hover {
 header {
   margin-top: 90px;
 }
-header h1 {
+h1 {
   margin: auto;
   padding-bottom: 15px;
   text-align: center;
@@ -145,6 +145,9 @@ h3 {
 .jezik:hover {
   font-weight: bold;
   text-decoration: none;
+}
+#search-icon {
+  display: none;
 }
 article {
   width: 30%;
@@ -395,8 +398,14 @@ footer {
     position: relative;
   }
   .navbar-main {
-    margin-top: 50px;
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
   }
+  .gradient {
+    height: 24vh;
+  }
+
 }
 @media screen and (max-width: 767px){
   .navbar-nav li>a {
@@ -411,7 +420,14 @@ footer {
   .navbar-main {
     margin-top: 0;
     position: relative;
-    top: -100px;
+    top: -80px;
+    width: 70%;
+  }
+  header {
+    margin-top: 150px;
+  }
+  .gradient {
+    height: 30vh;
   }
   .navbar-default .navbar-form{
     border-color: transparent;
@@ -426,11 +442,38 @@ footer {
   }
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 700px){
   .jezik-abbr {
     display: inline-block;
   }
   .jezik {
     display: none;
   }
+  #search-icon {
+    display: inline;
+
+  }
+  .form-control {
+    display: none;
+  }
+  .prodaja-jezik {
+    top: -64px;
+  }
+  .navbar-main {
+    top: -48px;
+  }
+  h1 {
+    width: 80%;
+  }
+  }
+
+  @media screen and (max-width: 655px){
+    .navbar-main {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 570px){
+    .navbar-main {
+      width: 100%;
+    }
   }
