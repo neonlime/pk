@@ -39,10 +39,10 @@ border-left: 15px inset #db0d0d;
   width: 80%;
 }
 h3 {
-  font-family: 'Inconsolata', monospace;
+  /*font-family: 'Inconsolata', monospace;
   font-weight: bold;
   text-align: center;
-  margin-top: 0;
+  margin-top: 0;*/
 }
 .col-md-4 {
   float: left;
@@ -105,9 +105,19 @@ aside {
   color:  #CC0D0D;
   text-decoration: none;
 }
+.autor-img-div {
+  overflow: hidden;
+}
 .autor-img {
   height: 195px;
+  transition: transform 0.5s;
+  overflow: hidden;
+
 }
+.autor-img:hover {
+  transform: scale(1.06);
+}
+
 h5 {
   margin-bottom: 10px;
   margin-left: 5px;
@@ -205,6 +215,9 @@ filter: grayscale(100%);
   text-indent: 20px;
   margin-top: 50px;
   text-align: left;
+  /*font-weight: bold;*/
+  font-size: 1.3em;
+  font-family: 'Inconsolata', monospace;
 }
 .btn-kontakt, h4 {
   text-align: center;
@@ -223,12 +236,12 @@ filter: grayscale(100%);
   font-size: 1.2em;
 }
 .prodaja-info span {
-  color:  #a31d1d;
+  color:  #777;
+  text-transform: uppercase;
 }
 .prodaja-info a {
-  color: #CC0D0D;
+  color: #a31d1d;
   font-weight: bold;
-  letter-spacing: 1px;
 }
 .prodaja-info p {
   text-indent: 25px;

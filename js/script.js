@@ -12,3 +12,9 @@ $(document).keyup(function(e) {
         $("#alert-onama").fadeOut(500);
     }
 });
+
+$(document).ready(function () {
+    $("#search-icon").click(function () {
+        $("#search-bar").toggle();
+    });
+});
